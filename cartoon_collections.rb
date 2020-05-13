@@ -16,7 +16,11 @@ end
 
 def long_planteer_calls(long_planteer_calls)
 long_planeteer_calls.any? do |word|
-  word.length  >4
+  if word.length  >4
+    return true
+  else false
+  end
+  
 end
 end
 
