@@ -20,7 +20,7 @@ long_planeteer_calls.any? do |word|
     return true
   else false
   end
-  
+
 end
 end
 
